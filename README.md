@@ -1,4 +1,4 @@
-# parse-vue-sample
+# parse-vue-auth-router
 
 ## Project setup
 ```
