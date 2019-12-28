@@ -59,8 +59,8 @@ router.beforeEach((to, from, next) => {
   // 1- required Login
   if (permission === requiredLogin && !user) {
     return next({
-      path: '/login',
-      query: { redirect: to.fullPath }
+      path: '/error',
+      query: { msg: 'Required login'}
     })
   }
   // 2- required logout

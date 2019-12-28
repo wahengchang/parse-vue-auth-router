@@ -35,3 +35,10 @@ export default {
   components: {}
 };
 </script>
+
+<style scoped>
+input {
+  display: block;
+  margin: auto;
+}
+</style>
